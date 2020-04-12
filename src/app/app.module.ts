@@ -26,7 +26,7 @@ import { EmailValidationDirective } from './directives/email-validation.directiv
     RegisterComponent,
     TopComponent,
     HeaderComponent,
-    EmailValidationDirective
+    EmailValidationDirective,
   ],
   imports: [
     BrowserModule,

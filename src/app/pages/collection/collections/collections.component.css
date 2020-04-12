@@ -1,0 +1,6 @@
+.collection-grid{
+    display: grid;
+    /* 250px以下になったら100%で伸びる　※対象itemにflex: auto;を書いておく */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}

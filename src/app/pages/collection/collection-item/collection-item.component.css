@@ -1,0 +1,13 @@
+.wrapper {
+    /* width: 250px; */
+    height: 280px;
+    border-radius: 10px;
+    background-color: #d2dae2;
+    transition: 0.5s;
+    flex: auto;
+    padding: 10px;
+}
+.wrapper:hover{
+    transition: all;
+    transform: scale(1.05);
+}
