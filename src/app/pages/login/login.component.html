@@ -1,0 +1,31 @@
+<div class="wrapper">
+    <div class="register-form">
+        <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+            <p class="text-label">{{ title }}</p>
+            <label class="app-input-label">
+                email
+                <input 
+                    class="app-input" 
+                    name="email" 
+                    [(ngModel)]="user.email" 
+                    #email="ngModel"
+                    required
+                    appEmailValidation="{{emailRegExp}}"
+                    />
+            </label>
+            <p [hidden]="email.valid || email.pristine">
+                test
+            </p>
+            <label class="app-input-label">
+                password
+                <input class="app-input" name="password" required [(ngModel)]="user.password" #password="ngModel"/>
+            </label>
+            <div class="text-right btn-wrapper">
+                <button type="submit" class="btn" [disabled]="!loginForm.form.valid">
+                    login
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+

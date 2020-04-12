@@ -1,0 +1,24 @@
+<div class="wrapper">
+    <div class="register-form">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <p class="text-label">{{ title }}</p>
+            <label class="app-input-label">
+                name
+                <input class="app-input" formControlName="name" />
+            </label>
+            <label class="app-input-label">
+                email
+                <input class="app-input" formControlName="email" />
+            </label>
+            <label class="app-input-label">
+                password
+                <input class="app-input" formControlName="password" />
+            </label>
+            <div class="text-right btn-wrapper">
+                <button type="submit" class="btn" [disabled]="!registerForm.valid">
+                    register
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

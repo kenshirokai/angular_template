@@ -1,0 +1,25 @@
+.wrapper{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.top-title {
+    /* display: flex;
+    align-items: center; */
+    font-size: 8rem;
+    letter-spacing: 2;
+    font-weight: 600;
+}
+/* .top-title::before, .top-title::after {
+    display: block;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background-color: black;
+    margin: 0 10px;
+} */

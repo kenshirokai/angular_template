@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* layout */
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+
+/*
+    App-common-color
+*/
+.color-bright {
+    color: #fff;
+}
+.bg-bright {
+    background-color: #fff;
+}
+.color-dark {
+    color: #2C3A47;
+}
+.bg-dark {
+    background-color: #2C3A47;
+}
+.color-accent {
+    color: #FC427B;
+}
+.bg-accent {
+    background-color: #FC427B;
+}
+
+/*
+    components
+*/
+
+/* input */
+.app-input {
+    outline: none;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.app-input-label {
+    display: block;
+    color: #2C3A47;
+    margin: 10px 0;
+}
+
+/* label */
+.text-label {
+    color: #2C3A47;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    border-left: 4px solid #FC427B;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    outline: none;
+    border: none;
+    min-width: 85px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FC427B;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.05rem;
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-wrapper {
+    margin: 20px 0;
+}
